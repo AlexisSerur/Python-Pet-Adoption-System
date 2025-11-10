@@ -1,4 +1,4 @@
-# 🐾 Pet Adoption System (Final Phase)
+# Pet Adoption System 
 
 A clean, easy-to-use desktop app built with **Python (PyQt6)** and **MySQL** that helps animal shelters manage pets, process adoptions, and keep track of applicants.  
 
@@ -9,16 +9,16 @@ Every pet and application is stored safely in a MySQL database, so nothing gets 
 
 ## 💡 What It Does
 
-- 🐶 **Register Pets** — Add or update pet records, including comments and status (Available / Pending / Adopted).  
-- 🔎 **Search Pets** — Filter by name, species, breed, or shelter. Each row has:
+- **Register Pets** — Add or update pet records, including comments and status (Available / Pending / Adopted).  
+- **Search Pets** — Filter by name, species, breed, or shelter. Each row has:
   - A **Change Status** dropdown (updates instantly in the database)
   - A **View** button to open editable comments
-- ❤️ **Adopt a Pet** — Search available pets, then click:
+-  **Adopt a Pet** — Search available pets, then click:
   - **View** → to see comments, or  
   - **Submit Application** → to fill out the adoption form
-- 📋 **Applications Dashboard** — Review submitted applications, approve or deny them, and automatically update the pet’s status.
-- 💬 **Comments Dialog** — Edit notes for each pet anytime.
-- 🧠 **Error Handling** — Safe database updates with proper rollbacks.
+- **Applications Dashboard** — Review submitted applications, approve or deny them, and automatically update the pet’s status.
+- **Comments Dialog** — Edit notes for each pet anytime.
+- **Error Handling** — Safe database updates with proper rollbacks.
 
 ---
 
