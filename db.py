@@ -7,7 +7,7 @@ def get_connection():
             host='localhost',
             database='PetAdoptionDB',
             user='root',
-            password='3265Alexis'  # <-- change if needed
+            password=''  # <-- change if needed
         )
         if conn.is_connected():
             print("Connected to PetAdoptionDB database successfully!")
