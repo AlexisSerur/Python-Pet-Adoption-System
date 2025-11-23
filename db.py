@@ -5,9 +5,9 @@ def get_connection():
     try:
         conn = mysql.connector.connect(
             host='localhost',
-            database='PetAdoptionDB',
+            database='PetAdoptionDB', # <--- Name of your local database
             user='root',
-            password=''  # <-- change if needed
+            password=''  # <-- Place Database Password here
         )
         if conn.is_connected():
             print("Connected to PetAdoptionDB database successfully!")
